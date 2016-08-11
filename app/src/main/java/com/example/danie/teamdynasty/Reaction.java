@@ -14,7 +14,7 @@ public class Reaction {
         A1BottleUp, B1TellCher, C1ConfrontOnline, D1ConfrontIRL, E1TellClassFriend, F1TellBestFriend, A2Depressed, B2Revenge, C2Ignore, D2TellCherAgain
     }
 
-    public static ArrayList<ChoiceOptions> GenerateChoices(Choice lastChoice) {
+    public static ArrayList<ChoiceOptions> generateChoices(Choice lastChoice) {
         ArrayList<ChoiceOptions> possibleChoiceOptions = new ArrayList<ChoiceOptions>();
 
         Choice.chosenChoiceOptions.add(lastChoice.getChoice());
